@@ -1,6 +1,6 @@
 # Gitlet Outline
-   <!-- ABOUT THE PROJECT -->
-    ##Classes and Data Structures
+<!-- ABOUT THE PROJECT -->
+ ##Classes and Data Structures
       Main:
         1.Stage _s
         2.CommitTree _commitTree;
