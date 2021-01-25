@@ -64,6 +64,8 @@
         17.java gitlet.Main push [remote name] [remote branch name]
         18.java gitlet.Main fetch [remote name] [remote branch name]
         19.java gitlet.Main pull [remote name] [remote branch name]
+        
+   Project Spec: https://inst.eecs.berkeley.edu/~cs61b/sp20/materials/proj/proj3/index.html
     
     
 
