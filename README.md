@@ -44,8 +44,26 @@
         11.rm-branch:This deletes the given branch with the given name.
         12.reset:checks out all the files in the given commit. Remove the untracked files.
         13.merge:This combines two files that have been split.
-    ## Persistence
-    1.When i do git add, the added files will be staged and serialized. When i do git commit on those files, they will clear the stage's stagedFiles and do the accordingly.
+    ## Commands
+        1.java gitlet.Main init
+        2.java gitlet.Main add [file name]
+        3.java gitlet.Main commit [message]
+        4.java gitlet.Main rm [file name]
+        5.java gitlet.Main log
+        6.java gitlet.Main global-log
+        7.java gitlet.Main find [commit message]
+        8.java gitlet.Main status
+        9.java gitlet.Main checkout -- [file name]
+        10.java gitlet.Main checkout [commit id] -- [file name]
+        11.java gitlet.Main checkout [branch name]
+        12.java gitlet.Main branch [branch name]
+        13.java gitlet.Main rm-branch [branch name]
+        14.java gitlet.Main reset [commit id]
+        15.java gitlet.Main merge [branch name]
+        16.java gitlet.Main rm-remote [remote name]
+        17.java gitlet.Main push [remote name] [remote branch name]
+        18.java gitlet.Main fetch [remote name] [remote branch name]
+        19.java gitlet.Main pull [remote name] [remote branch name]
     
     
 
