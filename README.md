@@ -26,7 +26,7 @@
         1.HashMap<String, String> branches
         2.String _head:The file that the head pointer points to.
         3.String _currDirectory
-    ## Algorithms
+   ## Algorithms
     Main:
         1.init:The method that initiates a .gitlet directory if not one already. It also starts with one commit as the root.
         2.add:This adds a copy of the file to the staging area in .gitlet.
@@ -41,7 +41,7 @@
         11.rm-branch:This deletes the given branch with the given name.
         12.reset:checks out all the files in the given commit. Remove the untracked files.
         13.merge:This combines two files that have been split.
-    ## Commands
+   ## Commands
         1.java gitlet.Main init
         2.java gitlet.Main add [file name]
         3.java gitlet.Main commit [message]
