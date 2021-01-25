@@ -1,0 +1,59 @@
+I prelude1.inc
+>add f.txt
+File does not exist.
+<<<
+> branch hey
+<<<
+> branch dd fff
+Incorrect operands.
+<<<
+> rm f.txt
+No reason to remove the file.
+<<<
+>commit "I did it!"
+No changes added to the commit.
+<<<
+>merge hey
+Given branch is an ancestor of the current branch.
+<<<
+>checkout hey
+<<<
++ f.txt conflict1.txt
+>add f.txt
+<<<
+>commit "two ss"
+<<<
++ z.txt conflict2.txt
+>add z.txt
+<<<
+>status
+=== Branches ===
+\*hey
+master
+
+=== Staged Files ===
+z.txt
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
++ z.txt conflict1.txt
+>status
+=== Branches ===
+\*hey
+master
+
+=== Staged Files ===
+z.txt
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+z.txt
+<<<

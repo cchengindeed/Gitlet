@@ -1,0 +1,45 @@
+I prelude1.inc
+>branch coolerOne
+<<<
++ a.txt conflict1.txt
++ b.txt conflict1.txt
+> add a.txt
+<<<
+>add b.txt
+<<<
+> commit "hey"
+<<<
++ c.txt conflict1.txt
++ d.txt conflict1.txt
+> add c.txt
+<<<
+>add d.txt
+<<<
+> commit "hey"
+<<<
+> checkout coolerOne
+<<<
++ z.txt conflict1.txt
++ g.txt conflict1.txt
+> add z.txt
+<<<
+>add g.txt
+<<<
+> commit "hey"
+<<<
+> merge master
+<<<
+> status
+=== Branches ===
+\*coolerOne
+master
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<*

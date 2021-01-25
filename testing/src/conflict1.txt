@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+wug2 sucks
+=======
+This is not a wug.
+>>>>>>>
