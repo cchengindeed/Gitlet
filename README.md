@@ -1,6 +1,6 @@
 # Gitlet Outline
 <!-- ABOUT THE PROJECT -->
- ##Classes and Data Structures
+ ## Classes and Data Structures
       Main:
         1.Stage _s
         2.CommitTree _commitTree;
@@ -26,7 +26,7 @@
         1.HashMap<String, String> branches
         2.String _head:The file that the head pointer points to.
         3.String _currDirectory
-    ##Algorithms
+    ## Algorithms
     Main:
         1.init:The method that initiates a .gitlet directory if not one already. It also starts with one commit as the root.
         2.add:This adds a copy of the file to the staging area in .gitlet.
