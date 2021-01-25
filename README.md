@@ -1,7 +1,5 @@
 # Gitlet Outline
-
-    Gitlet Design Document
-   
+   <!-- ABOUT THE PROJECT -->
     ##Classes and Data Structures
       Main:
         1.Stage _s
